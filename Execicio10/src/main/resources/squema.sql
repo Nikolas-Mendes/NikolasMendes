@@ -1,3 +1,5 @@
+drop table if exists funcionario;
+
 create table funcionario(
     id_funcionario bigint auto_incriment,
     nome varchar(100) not null,
